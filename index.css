@@ -1,0 +1,26 @@
+body {
+  font-family: "VT323", monospace;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#board {
+  background: url(./assets/flappybirdbg.png);
+  border: 8px solid black;
+  border-radius: 32px;
+}
+
+#play {
+  position: absolute;
+  font-family: "VT323", monospace;
+  border: 2px solid white;
+  box-shadow: 0px 0px 0px 5px black;
+  /* Here goes our Additional CSS Task Number 3 */
+}
